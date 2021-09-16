@@ -127,7 +127,8 @@ ul {
     /* padding: 10px 50px; */
     /* margin-right: 100px;
     padding-right: 50px; */
-    margin-left: 100px;
+    margin-left: 130px;
+    padding: 0;
 }
 
 .projects__info h2 {
@@ -147,6 +148,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: 50px;
     
 }
 
