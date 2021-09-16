@@ -1,3 +1,5 @@
+/* https://coolors.co/0d1b2a-1b263b-415a77-778da9-e0e1dd */
+
 *
 {
   margin:0;
@@ -103,4 +105,56 @@ ul {
 .hero__img img {
     border-radius: 20px;
     
+}
+
+.projects {
+    width: 100%;
+    
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projects__info {
+    width: 544px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    /* padding: 10px 50px; */
+    /* margin-right: 100px;
+    padding-right: 50px; */
+    margin-left: 100px;
+}
+
+.projects__info h2 {
+    font-size: 3rem;
+    color: #E0E1DD;
+    text-align: left;
+}
+
+.projects__info p {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.projects__img {
+    width: 400px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.projects img {
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.projects img:hover {
+    opacity: 1;
 }
