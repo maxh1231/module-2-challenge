@@ -14,6 +14,7 @@ html {
     color: #778DA9;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     
 }
 
@@ -35,6 +36,7 @@ ul {
     position: sticky;
     top: 0;
     margin: 0;
+    z-index: 9999;
 }
 
 .header h1 {
@@ -62,6 +64,10 @@ ul {
 .nav__links li a {
     padding: 20px;
     color: #778DA9;
+}
+
+.nav__links li a:hover {
+    border-bottom: 2px solid #E0E1DD;
 }
 
 
@@ -160,3 +166,97 @@ ul {
 .projects img:hover {
     opacity: 1;
 }
+
+.contact {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.contact__info h2 {
+    font-size: 3rem;
+    color: #E0E1DD;
+    text-align: left;
+}
+
+.contact__info p {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    color: #E0E1DD;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+input[type=text] {
+    width: 500px;
+    height: 20px;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+}
+
+form textarea {
+    width: 500px;
+    height: 140px;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+}
+
+input[type=text] textarea:focus{
+    border: 1px solid #E0E1DD;
+}
+
+input[type=text], textarea {
+    border-radius: 10px;
+    border-style: none;
+}
+
+form button {
+    border-radius: 10px;
+    border-style: none;
+    margin: 20px 0;
+    padding: 5px 5px;
+    font-size: 1.2rem;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+}
+
+form button:hover {
+    cursor: pointer;
+    border: 1px solid #E0E1DD;
+}
+
+.socials {
+    margin: 0 40px;
+}
+
+.socials img {
+    width: 200px;
+    height: 200px;
+}
+
+

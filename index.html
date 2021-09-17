@@ -21,19 +21,19 @@
         <nav class="nav-container">
             <ul class="nav__links">
                 <li>
-                    <a href="">Projects</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="about">
         <div class="hero__info">
             <h2>Hi, I'm Max</h2>
             <p>
@@ -45,7 +45,7 @@
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="projects__info">
             <h2>Projects</h2>
             <p>
@@ -57,20 +57,48 @@
         </div>
         <div class="projects__img">
             <div class="run-buddy">
-                <a href="https://maxh1231.github.io/run-buddy/">
+                <a href="https://maxh1231.github.io/run-buddy/" target="_blank">
                     <img src="assets/images/run-buddy-logo.JPG" alt="run-buddy website" height="91">
                 </a>
             </div>
             <div class="horeiseon">
-                <a href="https://maxh1231.github.io/module-1-challenge/">
+                <a href="https://maxh1231.github.io/module-1-challenge/" target="_blank">
                     <img src="assets/images/horiseon-logo.JPG" alt="horeiseon website">
                 </a>
             </div>
             <div class="meet">
-                <a href="https://maxh1231.github.io/meet-landing-page/">
+                <a href="https://maxh1231.github.io/meet-landing-page/" target="_blank">
                     <img src="assets/images/meet-logo.JPG" alt="meet landing page" width="235" height="91">
                 </a>
             </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact__info">
+            <h2>Contact Me</h2>
+            <p>
+                Lets create something special
+            </p>
+        </div>
+        <div class="form">
+            <form action="#contact">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="messasge">Message</label>
+                <textarea name="message" id="message"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/maxh1231" target="_blank">
+                <img src="assets/images/icons8-github.svg" alt="my GitHub">
+            </a>
+
+            <a href="https://www.linkedin.com/in/max-humpherys-040822219/" target="_blank">
+                <img src="assets/images/LinkedIn-Icon-Black-Logo.wine.svg" alt="My Linkdln">
+            </a>
+        </div>
     </section>
 
 </body>
