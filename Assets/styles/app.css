@@ -86,7 +86,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     padding: 10px 50px;
-    
+    margin-right: 100px;
 }
 
 .hero__info h2 {
@@ -105,7 +105,7 @@ ul {
 .hero__img {
     
     object-fit: cover;
-    
+    margin-left: 100px;
 }
 
 .hero__img img {
@@ -133,8 +133,8 @@ ul {
     /* padding: 10px 50px; */
     /* margin-right: 100px;
     padding-right: 50px; */
-    margin-left: 130px;
-    padding: 0;
+    margin-right: 5px;
+    padding: 0 30px;
 }
 
 .projects__info h2 {
@@ -154,7 +154,8 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-right: 50px;
+    align-items: center;
+    margin-left: 125px;
     
 }
 
@@ -239,7 +240,7 @@ form button {
     border-radius: 10px;
     border-style: none;
     margin: 20px 0;
-    padding: 5px 5px;
+    padding: 10px 5px;
     font-size: 1.2rem;
     background-color: #0D1B2A;
     color: #E0E1DD;
@@ -255,8 +256,14 @@ form button:hover {
 }
 
 .socials img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    filter: invert(100%);
+    opacity: .8;
+}
+
+.socials img:hover {
+    opacity: 1;
 }
 
 
