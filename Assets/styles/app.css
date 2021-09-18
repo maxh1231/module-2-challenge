@@ -103,7 +103,7 @@ ul {
 
 
 .hero__img {
-    
+    size: 100%;
     object-fit: cover;
     margin-left: 100px;
 }
@@ -266,4 +266,161 @@ form button:hover {
     opacity: 1;
 }
 
+
+@media screen and (max-width: 1024px) {
+    
+    body {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .header {
+        position: static;
+    }
+    
+    .header h1 {
+        margin: 10px;
+    }
+    
+    .nav__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero__info {
+        margin: 0;
+        text-align: center;
+        
+    }
+
+    .hero__info h2, .hero__info p {
+        text-align: center;
+    }
+
+    .hero__img {
+        margin-right: 65px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .projects__info {
+        height: 120px;
+        width: 610px;
+        
+        
+    }
+
+    .projects__info h2, .projects__info p {
+        text-align: center;
+    }
+    
+    .projects__img {
+        margin: 0;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-top: 100px;
+        
+    }
+
+    .contact__info {
+        margin-bottom: 30px;
+    }
+
+    .contact__info h2, .contact__info p {
+        text-align: center;
+    }
+
+    .form {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .projects__info {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    
+    body {
+        width: 100vw;
+    }
+    
+    input[type=text] {
+        width: 300px;
+    }
+
+    form textarea {
+        width: 300px;
+    }
+
+    .socials img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    
+    
+
+    
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .hero__img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .nav__links {
+        font-size: 1.5rem;
+    }
+
+    .hero__info h2, .projects__info h2, .contact__info h2 {
+        font-size: 2.2rem;
+    }
+
+    .hero__info p, .projects__info p, .contact__info p {
+        font-size: 1.4rem;
+    }
+
+    .run-buddy img {
+        width: 300px;
+    }
+
+    .horeiseon img {
+        width: 200px;
+        height: 91px;
+    }
+
+    .meet img {
+        width: 200px;
+    }
+}
 
